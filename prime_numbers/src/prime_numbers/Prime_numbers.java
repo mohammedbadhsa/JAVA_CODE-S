@@ -1,21 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package prime_numbers;
 
-/**
- *
- * @author user
- */
+
 public class Prime_numbers {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
-        // TODO code application logic here
+       int a,c,j,i;
+       
+       for(i=1;i<=100;i++){
+           c=0;
+           for(j=1;j<=i;j++){
+           if(i%j==0);
+           c = c +1;    
+           }
+           
+       }
+       if(c ==2){
+       System.out.println(""+i+"");
+       }
     }
+    
     
 }
