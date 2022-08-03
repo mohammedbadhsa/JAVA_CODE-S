@@ -20,6 +20,5 @@ public class math_class {
         math_class myob = new math_class();
         
         myob.add();
-        myob.add("Mohammed Badsha", 483017);
     }
 }
