@@ -6,8 +6,8 @@ public class Overrideclass {
         obj.name = "Mohammed Badsha";
         obj.roll = 483017;
         obj.salary = 22000;
-        obj.add();   //function call korar jonno (object_name.function_name) .
-        
+        obj.add();//function call korar jonno (object_name.function_name) .
+        System.out.println("\n");
         
         A obj1 = new A();
         obj1.name = "Durjoy Bhomik";

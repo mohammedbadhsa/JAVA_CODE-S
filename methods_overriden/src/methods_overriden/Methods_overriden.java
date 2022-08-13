@@ -5,17 +5,17 @@ class A{
    int roll;
    
    void add(){
-        System.out.println(name);
-        System.out.println(roll);
+        System.out.println("Students Name :"+name);
+        System.out.println("Students Roll : "+roll);
    }   
 }
 
 class B extends A{
     int salary;
     void add(){
-    System.out.println(name);
-    System.out.println(roll);
-    System.out.println(salary);
+    System.out.println("Students Name :"+name);
+    System.out.println("Students Roll : "+roll);
+    System.out.println("Student Salary :"+salary);
     }
 }
 
