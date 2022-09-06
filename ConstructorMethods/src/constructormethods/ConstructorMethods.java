@@ -2,20 +2,26 @@
 package constructormethods;
 
 class student{
-    public void student(String name,int roll){
-        
-        System.out.println("Studen Name :"+name);
-        System.out.println("Studne Roll :"+roll);
-    }
-}
-
-public class ConstructorMethods {
-
-
-    public static void main(String[] args) {
-       student ob1 = new student();
-       ob1.student("Mohammed Badsha",483017);
-       
+    int Roll,Reg;
+    String Name,Department;
+    
+    student(String n,int r){
+        Name = n;
+        Roll = r;
+        System.out.println("Student Name :"+Name);
+        System.out.println("Student Roll :"+Roll);
     }
     
+    public void display(){
+        System.out.println("Student Name : "+Name);
+        System.out.println("Student Name : "+Roll);
+    }
+    
+    public static void main(String[]args){
+        student ob2 = new student("MOHAMMAD BADSHA",483017);
+        ob2.display();
+        
+        
+    
+    }
 }
